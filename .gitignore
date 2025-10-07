@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.db
+
+# VS Code
+.vscode/
+
+# 虛擬環境
+env/
+venv/
+.lineBot/
+.idea/
+
+# 其它 IDE 設定
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints
+
+# log, 暫存
+*.log
+*.tmp
+
+# dotenv 檔案（敏感資料，應防止外流）
+.env
+.env.*
+
+# Mac/Linux 系統檔
+.DS_Store
+
+# Windows 系統檔
+Thumbs.db
+
+# Google Sheets 憑證等敏感檔（如有用到 OAuth2）
+creds.json
+client_secret.json
+
+# ngrok 
+*.exe
